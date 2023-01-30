@@ -5,16 +5,16 @@
 
 int main()
 {
-	//printf("%d*\n",getpid());
+	// printf("%d*\n",getpid());
 	fork();
 
-	//printf("%d**\n",getpid());
+	// printf("%d**\n",getpid());
 	fork();
 
-	//printf("%d***\n",getpid());
-	fork();
+	// printf("%d***\n",getpid());
+	// fork();
 	
-	//printf("%d****\n",getpid());
+	printf("%d****\n",getpid());
 
 	return 0;
 }
