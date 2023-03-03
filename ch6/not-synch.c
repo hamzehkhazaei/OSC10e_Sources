@@ -21,7 +21,7 @@ void* doSomeThing(void *arg)
 
     for(i=0; i<(0xFFFFFFFF);i++);
     printf("\n Job %d finished\n", counter);
-
+    
     return NULL;
 }
 

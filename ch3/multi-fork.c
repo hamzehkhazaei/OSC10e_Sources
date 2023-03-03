@@ -12,7 +12,7 @@ int main()
 	fork();
 
 	// printf("%d***\n",getpid());
-	// fork();
+	fork();
 	
 	printf("%d****\n",getpid());
 
