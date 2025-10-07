@@ -1,3 +1,6 @@
+[^.]*         # Ignore files in the root without a dot (no extension)
+!*.*          # Do not ignore files with a dot (with extension)
+
 # Ignore compiled executables and binaries
 *.exe
 *.out
@@ -46,3 +49,4 @@ core
 *.gz
 *.bz2
 *.xz
+
