@@ -1,0 +1,48 @@
+# Ignore compiled executables and binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.bin
+*.o
+*.obj
+*.elf
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.old
+*.orig
+
+# Ignore editor/IDE temp files
+*.log
+*.pid
+*.lock
+*.user
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Ignore core dumps
+core
+*.core
+
+# Ignore archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
