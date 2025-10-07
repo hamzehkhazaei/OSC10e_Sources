@@ -18,7 +18,7 @@ int turn;
 
 void* doSomeThing(void *arg)
 {
-    int no = (int*) arg;
+    int no = (int)(long)arg;
     if (no == 0){
         flag[0] = 1;
         turn = 1; // give the turn to thread 1
@@ -48,7 +48,7 @@ int main(void)
 
     while(i < 2)
     {
-        err = pthread_create(&(tid[i]), NULL, &doSomeThing, i);
+        err = pthread_create(&(tid[i]), NULL, &doSomeThing, (void *)(long)i);
         if (err != 0)
             printf("\ncan't create thread :[%s]", strerror(err));
         i++;
